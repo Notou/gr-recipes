@@ -27,8 +27,8 @@ depends:
 description: Python plotting library
 inherit: distutils
 satisfy:
-  deb: python-bokeh >= 0.12.6
+  deb: python-bokeh >= 2.3.1
   rpm: bokeh || python-bokeh
-  python: bokeh >= 0.12.6
-  pip: bokeh >= 0.12.6
+  python: bokeh >= 2.3.1
+  pip: bokeh >= 2.3.1
 source: git+https://github.com/bokeh/bokeh.git
